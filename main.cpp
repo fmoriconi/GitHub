@@ -8,7 +8,7 @@ using namespace std;
 
 		parameters_t germanTheTrueDetractor = { 0 };
 
-		germanTheTrueDetractor.options[0] = { "height" };
+		germanTheTrueDetractor.options[0] = { "height" }; //Esto iría en el constructor que no pude hacer porque soy useless
 		germanTheTrueDetractor.options[1] = { "width" };
 		germanTheTrueDetractor.options[2] = { "robots" };
 		germanTheTrueDetractor.options[3] = { "mode" };
@@ -20,8 +20,8 @@ using namespace std;
 		como parámetro.*/
 
 		if ((vArguments == 4) || ((germanTheTrueDetractor.mode == mode2) && (vArguments == 3) && germanTheTrueDetractor.robots == 0)) {
-			printf("Height: %d \nWidth = %d \nNumber of robots = %d \nMode: %d", germanTheTrueDetractor.height, germanTheTrueDetractor.width, germanTheTrueDetractor.robots, germanTheTrueDetractor.mode);
-	
+		printf("Height: %d \nWidth = %d \nNumber of robots = %d \nMode: %d", germanTheTrueDetractor.height, germanTheTrueDetractor.width, germanTheTrueDetractor.robots, germanTheTrueDetractor.mode);
+		//Este printf es para poder verificar el funcionamiento del parser. Se los dejé por si lo quieren probar un poco.
 		/* Aca iría el resto del main porque ya verificamos que el input es válido y entonces se puede operar correctamente.*/
 		
 		
