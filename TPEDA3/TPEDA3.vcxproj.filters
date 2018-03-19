@@ -24,6 +24,9 @@
     <ClCompile Include="..\..\Project3\Project3\parser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="piso.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Project3\Project3\main.h">
@@ -33,6 +36,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Project3\Project3\parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="piso.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

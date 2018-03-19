@@ -119,11 +119,13 @@
     <ClCompile Include="..\..\Project3\Project3\main.cpp" />
     <ClCompile Include="..\..\Project3\Project3\parseCmdLine.cpp" />
     <ClCompile Include="..\..\Project3\Project3\parser.cpp" />
+    <ClCompile Include="piso.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Project3\Project3\main.h" />
     <ClInclude Include="..\..\Project3\Project3\parseCmdLine.h" />
     <ClInclude Include="..\..\Project3\Project3\parser.h" />
+    <ClInclude Include="piso.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
